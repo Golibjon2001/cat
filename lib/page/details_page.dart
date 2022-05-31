@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+
 class Details extends StatefulWidget {
-  const Details({Key? key}) : super(key: key);
+
+  const Details({Key? key,}) : super(key: key);
 
   @override
   _DetailsState createState() => _DetailsState();
@@ -13,8 +15,10 @@ class _DetailsState extends State<Details> {
       appBar:AppBar(),
       body:Padding(
         padding:const EdgeInsets.all(8),
-        child:Container(
-          color:Colors.black,
+        child:Column(
+          children:const [
+            Text("tt")
+          ],
         ),
       ),
     );
